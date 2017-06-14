@@ -36,3 +36,9 @@
   width: 160px;
   height: 180px;
 }
+
+@keyframes fade{
+  50% {
+    color: green;
+  }
+}
