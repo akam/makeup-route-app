@@ -1,9 +1,7 @@
 .brandName{
-  background: #ccc;
   margin: 5px;
   font-size: 20px;
   padding: 2px;
-  border-radius: 5px;
   display: inline-block;
 }
 .titles{

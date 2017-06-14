@@ -57,7 +57,7 @@ class App extends Component {
   
   render() {
     let brands = this.props.brands.map((el,i)=> (
-      <div className="brandName" key={i}><Link  onClick={this.updateSearch} to={`/brands/${el}`}>{el[0].toUpperCase() + el.slice(1)}</Link></div>
+      <div className="brandName" key={i}><Link className="btn btn-default" onClick={this.updateSearch} to={`/brands/${el}`}>{el[0].toUpperCase() + el.slice(1)}</Link></div>
     ));
     return (
       <div className="App">
